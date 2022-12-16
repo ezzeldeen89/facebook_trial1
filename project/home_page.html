@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>facebook</title>
+  <link rel="icon" type="image/x-icon" href="Resources/facebook_circular_icon.png">
+  <link rel="stylesheet" href="home_page.css">
+</head>
+
+<body style="width: 100%; height: 100%;">
+
+
+  <!-- navigation bar -->
+  <div class="topnav">
+    <div class="small_left_container">
+      <img src="Resources/facebook_circular_icon.png" alt="Not found" height="40px" width="40px" style="margin-right: 10px;">
+      <input type="text" placeholder="Search Facebook" style="width: 250px;border-radius: 25px;font-size: 10pt;background-color: #f0f2f5;border: #f0f2f5 0px;margin-right: 160px; ">
+       
+    
+    <a class="active" href="#home"><i class="fa-solid fa-house"></i></a>
+    <a href="#watch"><i class="fa-solid fa-tv"></i></a>
+    <a href="#Marketplace"><i class="fa-solid fa-store"></i></a>
+    <a href="#Groups"><i class="fa-solid fa-users-line"></i></a>
+    <div style="margin-right: 680px;"></div>
+    
+    <i class="fa-solid fa-bell" style="margin: 5px ;font-size: 30pt;color: rgb(184, 182, 189);"></i>
+    <i class="fa-brands fa-facebook-messenger" style="margin: 5px ;font-size: 30pt;color: rgb(184, 182, 189);"></i>
+    <img src="Resources/bg.jpg" alt="image not found" class="small_img_circular" style="margin: 5px;">
+  </div>
+  </div>
+
+  <!-- left side  -->
+  <div class="sides">
+    <div class="small_left_container">
+      <img src="Resources/bg.jpg" alt="image not found" class="small_img_circular" style="margin: 5px;">
+      <p>Ezz Mohamed</p>
+    </div>
+    <div class="small_left_container">
+      <p class="fa-solid fa-user-group" id="icons"> </p>
+      <p> Friends</p>
+    </div>
+    <div class="small_left_container">
+      <p class="fa-solid fa-bookmark" id="icons"> </p>
+      <p> Saved</p>
+    </div>
+    <div class="small_left_container">
+      <p class="fa-regular fa-calendar" id="icons"></p>
+      <p> Most Recent</p>
+    </div>
+    <div class="small_left_container">
+      <p class="fa-solid fa-users-line" id="icons"> </p>
+      <p> Groups</p>
+    </div>
+    <div class="small_left_container">
+      <p class="fa-solid fa-store" id="icons"> </p>
+      <p> Marketplace</p>
+    </div>
+    <div class="small_left_container">
+      <hr style="width: 70%;">
+    </div>
+    <div class="small_left_container">
+      <p style="color: gray;"> Your Shortcuts</p>
+    </div>
+    <div class="small_left_container">
+      <img src="Resources/bbg.png" alt="not found" style="height: 40px;width: 40px;margin: 5px;">
+      <p> facebook group1</p>
+    </div>
+    <div class="small_left_container">
+      <img src="Resources/billiards.png" alt="not found" style="height: 40px;width: 40px;margin: 5px;">
+      <p>8 ball pool</p>
+    </div>
+  </div>
+
+
+  <!-- Center -->
+  <div class="center">
+    <div class="center_container" id="c1">
+      <img src="Resources/2.jpg" alt="Not found" class="small_img_circular" style="margin: 5px;margin-right: 10px;">
+      <input onfocus="mypost(event,this)" type="text" placeholder="What's on your mind, Ezz?"
+        style="width: 85%;border-radius: 28px;font-size: 13pt;padding-left: 7px;border: gray;background-color: #f0f2f5;">
+    </div>
+    <div class="center_container" style="padding: 7px;">
+      <p class="fa-solid fa-video" id="icons"></p>
+      <p>Video</p>
+      <p class="fa-regular fa-image" id="icons"></p>
+      <p>Image</p>
+      <p class="fa-regular fa-face-smile" id="icons"></p>
+      <p>Feeling</p>
+    </div>
+    <div id="seperate"></div>
+    <div class="center_container" style="padding: 7px;">
+      <img src="Resources/2.jpg" alt="Not found" class="small_img_circular" style="margin: 5px;margin-right: 10px;">
+      <p>Ezzeldeen Mohamed</p>
+      <div style="margin-left: 60%;display: flex;">
+        <p style="margin-right: 7px;color: #c0c4ca; font-size: 13pt;" class="fa-solid fa-ellipsis"></p>
+        <p class="fa-solid fa-xmark" style="color: #c0c4ca;font-size: 13pt;"></p>
+      </div>
+    </div>
+    <div>
+      <p style="text-align: left;margin: 7px;margin-bottom: 2px;">Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Officiis
+        corrupti illum voluptate explicabo quod. Rerum exercitationem cumque architecto qui dolore dolorem omnis
+        deleniti? Tempore reprehenderit, voluptates repellat porro eaque ut.</p>
+    </div>
+    <hr width="95%">
+
+    <div class="reactions" style="display: flex; justify-content: space-around;">
+      <div onclick="like(event)" id="div_like" style="display: flex;color:#5d5e60;">
+        <p  class="fa-solid fa-thumbs-up" style="color:#5d5e60;margin-right: 5px;"> </p>
+        <p> Like </p>
+      </div>
+
+      <div style="display: flex;">
+        <p class="fa-regular fa-message" style="color:#5d5e60;margin-right: 5px;"> </p>
+        <p style="color:#5d5e60;"> Comment </p>
+      </div>
+
+      <div style="display: flex;">
+        <p class="fa-solid fa-share" style="color:#5d5e60;margin-right: 5px;"></p>
+        <p style="color:#5d5e60;">Share</p>
+      </div>
+    </div>
+
+    <div id="seperate"></div>
+    <div class="center_container" style="padding: 7px;">
+      <img src="Resources/2.jpg" alt="Not found" class="small_img_circular" style="margin: 5px;margin-right: 10px;">
+      <p>Ezzeldeen Mohamed</p>
+      <div style="margin-left: 60%;display: flex;">
+        <p style="margin-right: 7px;color: #c0c4ca; font-size: 13pt;" class="fa-solid fa-ellipsis"></p>
+        <p class="fa-solid fa-xmark" style="color: #c0c4ca;font-size: 13pt;"></p>
+      </div>
+    </div>
+    <div>
+      <img src="Resources/1.jpg" alt="Not found" style="width: 90%;height: 400px;">
+
+      <hr width="95%">
+
+      <div class="reactions" style="display: flex; justify-content: space-around;">
+        <div style="display: flex;color:#5d5e60;">
+          <p class="fa-solid fa-thumbs-up" style="color:#5d5e60;margin-right: 5px;"> </p>
+          <p> Like </p>
+        </div>
+
+        <div style="display: flex;">
+          <p class="fa-regular fa-message" style="color:#5d5e60;margin-right: 5px;"> </p>
+          <p style="color:#5d5e60;"> Comment </p>
+        </div>
+
+        <div style="display: flex;">
+          <p class="fa-solid fa-share" style="color:#5d5e60;margin-right: 5px;"></p>
+          <p style="color:#5d5e60;">Share</p>
+        </div>
+
+      </div>
+
+
+      <div id="seperate"></div>
+      <div class="center_container" style="padding: 7px;">
+        <img src="Resources/2.jpg" alt="Not found" class="small_img_circular" style="margin: 5px;margin-right: 10px;">
+        <p>Ezzeldeen Mohamed</p>
+        <div style="margin-left: 60%;display: flex;">
+          <p style="margin-right: 7px;color: #c0c4ca; font-size: 13pt;" class="fa-solid fa-ellipsis"></p>
+          <p class="fa-solid fa-xmark" style="color: #c0c4ca;font-size: 13pt;"></p>
+        </div>
+      </div>
+      <div>
+        <iframe width="90%" height="400px" src="https://www.youtube.com/embed/uHGNsrseizg" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        <hr width="95%">
+
+        <div class="reactions" style="display: flex; justify-content: space-around;">
+          <div style="display: flex;color:#5d5e60;">
+            <p class="fa-solid fa-thumbs-up" style="color:#5d5e60;margin-right: 5px;"> </p>
+            <p> Like </p>
+          </div>
+          <div style="display: flex;">
+            <p class="fa-regular fa-message" style="color:#5d5e60;margin-right: 5px;"> </p>
+            <p style="color:#5d5e60;"> Comment </p>
+          </div>
+
+          <div style="display: flex;">
+            <p class="fa-solid fa-share" style="color:#5d5e60;margin-right: 5px;"></p>
+            <p style="color:#5d5e60;">Share</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+
+  <!-- Right side -->
+  <div>
+    <p>Contacts</p>
+    <div class="small_right_container">
+      <img src="Resources/bg.jpg" alt="image not found" class="small_img_circular" style="margin: 5px;">
+      <p>Ali Mohamed</p>
+    </div>
+    <div class="small_right_container">
+      <img src="Resources/bg.jpg" alt="image not found" class="small_img_circular" style="margin: 5px;">
+      <p>Amr Mohamed</p>
+    </div>
+    <div class="small_right_container">
+      <img src="Resources/bg.jpg" alt="image not found" class="small_img_circular" style="margin: 5px;">
+      <p>Hossam omar</p>
+    </div>
+    <div class="small_right_container">
+      <img src="Resources/bg.jpg" alt="image not found" class="small_img_circular" style="margin: 5px;">
+      <p>mohannad salah</p>
+    </div>
+    <div class="small_right_container">
+      <img src="Resources/bg.jpg" alt="image not found" class="small_img_circular" style="margin: 5px;">
+      <p>Ehab hassan</p>
+    </div>
+    <div class="small_right_container">
+      <img src="Resources/bg.jpg" alt="image not found" class="small_img_circular" style="margin: 5px;">
+      <p>amr taha</p>
+    </div>
+    <div class="small_right_container">
+      <img src="Resources/bg.jpg" alt="image not found" class="small_img_circular" style="margin: 5px;">
+      <p>ahmed mohamed</p>
+    </div>
+    <div class="small_right_container">
+      <img src="Resources/bg.jpg" alt="image not found" class="small_img_circular" style="margin: 5px;">
+      <p>loay ali</p>
+    </div>
+    <div class="small_right_container">
+      <img src="Resources/bg.jpg" alt="image not found" class="small_img_circular" style="margin: 5px;">
+      <p>sara Mohamed</p>
+    </div>
+  </div>
+
+
+
+
+
+  <script src="https://kit.fontawesome.com/4cc377ee77.js" crossorigin="anonymous"></script>
+  <script src="home.js"></script>
+</body>
+
+</html>

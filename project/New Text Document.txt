@@ -1,0 +1,5 @@
+required in inputs for login and register
+check submit for forms of login and register
+
+rightside active friends
+navbar
